@@ -1,0 +1,30 @@
+export const languages={
+JS:{
+    name:'javascript',
+    extension:'.js',
+},
+JAVA:{
+    name:'java',
+    extension:'.java',
+},
+CPP:{
+    name:'c++',
+    extension:'.cpp',
+},
+C:{
+    name:'c',
+    extension:'.c',
+},
+PY:{
+    name:'python',
+    extension:'.py',
+},
+DART:{
+    name:'dart',
+    extension:'.dart',
+},
+TS:{
+    name:'typescript',
+    extension:'.ts',
+},
+}
