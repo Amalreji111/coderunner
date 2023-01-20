@@ -17,7 +17,7 @@ export class CodeRunnerService {
   async run(body: CreateCodeRunnerDto) {
     try {
       let {code,language}=body
-      //i need to check here that code contains malicius code or not
+      //need to check here that code contains malicious code or not
       // let ln=this.sonarFactory.create(language)
       // let analyser=await ln.scan(code)
       const regex = new RegExp(/(ngrok|os|Process|process|runtime|GetrunTime|Process\.runSync|Process|node|g\+\+|javac|gpp|java|tsc|dart|nodemon|python|install|run|execute|system|systemctl|exec|spawn|fork|execfile|fs|filesystem|shutdown|reboot|restart|sudo|admin|cd|cat|nano|ls|docker|pull|jenkins|ctl|\.sh|\.bash|kubectl|minicube|helm|cron|vim|vi|git|origin|master|-b|yay|pamac|pacman|apt-get|apt|-S|-Syu|-Rns)\b/)
