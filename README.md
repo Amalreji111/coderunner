@@ -4,7 +4,7 @@
 
 # CodeRunner 
 
-CodeRunner is a backend application built using NestJS framework that allows users to run and execute code in 5 different languages (JavaScript, Python, C++, Java, and Dart). The application has been built with security in mind and uses a factory pattern to validate the code before executing it.
+CodeRunner is a backend application built using NestJS framework that allows users to run and execute code in 7 different languages (JavaScript, Python, C++, Java,typescript,c, and Dart). The application has been built with security in mind and uses a factory pattern to validate the code before executing it.
 
 ## Getting Started
 
