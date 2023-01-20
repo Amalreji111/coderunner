@@ -29,7 +29,7 @@ CodeRunner is a backend application built using NestJS framework that allows use
 3.The application should now be running on http://localhost:3000
 ### Running the APP
 
-1. Start the bot: `nest start`
+1. Start the app: `nest start`
 
 ## Usage
 
@@ -54,7 +54,7 @@ Feel free to contribute to the project by submitting a pull request.
 ## Built With
 
 - [Nest.js](https://nestjs.com/) - A progressive Node.js framework for building efficient and scalable server-side applications.
--
+
 
 
 ## License
