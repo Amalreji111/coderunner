@@ -16,7 +16,7 @@ export class CodeAnalyser{
             try {
               const analysis = await this.sonarScanner.scan({
                 'projectBaseDir': __dirname,
-                'projectKey': 'sqp_6de2351a42d57c4dc374f8449afb413617b38f25',
+                'projectKey': process.env.SONARQUBE_KEY,
                 'projectName': 'coderunner',
                 'sources': [this.code]
               });
